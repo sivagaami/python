@@ -1,0 +1,18 @@
+string = input("Enter list of items ")
+element = input("Enter the elements which needs to find ")
+
+list = str(string).split(" ")
+
+if element in list:
+    print(f"{element} is present in given list ")
+else:
+    print(f"{element} is not present in given list")
+    
+   
+   
+   
+   #output
+   #Enter list of items: pen paper pencil
+   #Enter the elements which needs to find: pencil
+   #pencil is present in the given list 
+   > 
