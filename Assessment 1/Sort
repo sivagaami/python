@@ -1,0 +1,4 @@
+x=input("Enter the Strings need to be sorted: ")
+x=x.split(",")
+x=sorted(x)
+print(",".join(x))
