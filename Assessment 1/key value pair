@@ -1,8 +1,10 @@
 dict = {'key1':'Python', 'key2':'Java'} 
 print("Current Dict is: ", dict) 
-    
+# to add   
 dict['key3'] = 'C'
 dict['key4'] = 'is'
 dict['key5'] = 'a'
 dict['key6'] = 'Programming language'
+# to update
+dict['key3'] = 'C++'
 print("Updated Dict is: ", dict)
