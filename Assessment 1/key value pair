@@ -1,15 +1,15 @@
-S = {}
+dict = {}
 while True:
  input=input("Do you want to Add/Modify/Exit:")
  if input == "Add":
-        key = input("Enter the key: ")
-        value = input("Enter the value: ")
-        S[key]=value
-        print("Dict values are",S)
+     key = input("Enter the key: ")
+     value = input("Enter the value: ")
+     dict[key]=value
+     print("values are :",dict)
  elif input == "Modify":
      key = input("Enter the key: ")
      value = input("Enter the value: ")
-     S[key]=value
-     print("Dict values are",S)
+     dict[key]=value
+     print("values are :",dict)
  else:
-   quit()
+     quit()
