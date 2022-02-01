@@ -4,7 +4,7 @@ s =input("Enter the url:")
 print("Given URL:",s)
 
 # finding the hostname 
-obj1 = re.findall('://www.([\w\-\.]+)',s)
+obj1 = re.findall('://\w+.([\w\-\.]+)',s)
 print("Host:",obj1)
 
 # finding the protocol
